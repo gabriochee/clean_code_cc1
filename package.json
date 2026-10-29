@@ -10,12 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/gabriochee/clean_code_cc1.git"
   },
-  "type": "commonjs",
+  "type": "module",
   "main": "main.ts",
   "scripts": {
-    "test": "node --test tests.ts"
+    "test": "npx tsx --test tests.ts"
   },
   "devDependencies": {
-    "@types/jest": "^30.0.0"
+    "@jest/globals": "^30.5.2",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.5.2",
+    "tsx": "^4.23.15"
   }
 }
