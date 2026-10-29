@@ -10,6 +10,8 @@ export type Card = {
   color: CardColor
 };
 
-export function getSumOfHands(cards: Card[]): number {
+export type CardHand = [Card, Card, Card, Card, Card];
+
+export function getSumOfHands(cards: CardHand[]): number {
   return 0;
 }
