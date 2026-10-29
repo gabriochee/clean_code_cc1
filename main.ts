@@ -17,5 +17,10 @@ function getHighestHandScore(cardHand: CardHand): number {
 }
 
 export function getSumOfHands(cardHands: CardHand[]): number {
-  return 0;
+  const initialScore = 0;
+
+  return cardHands.reduce(
+    (score, currentHand) => score + getHighestHandScore(currentHand),
+    initialScore
+  );
 }
