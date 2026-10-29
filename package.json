@@ -1,0 +1,21 @@
+{
+  "name": "cc1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/gabriochee/clean_code_cc1#readme",
+  "bugs": {
+    "url": "https://github.com/gabriochee/clean_code_cc1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriochee/clean_code_cc1.git"
+  },
+  "type": "commonjs",
+  "main": "main.ts",
+  "scripts": {
+    "test": "node --test tests.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0"
+  }
+}
