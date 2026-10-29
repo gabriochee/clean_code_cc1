@@ -12,6 +12,10 @@ export type Card = {
 
 export type CardHand = [Card, Card, Card, Card, Card];
 
-export function getSumOfHands(cards: CardHand[]): number {
+function getHighestHandScore(cardHand: CardHand): number {
+  return 0;
+}
+
+export function getSumOfHands(cardHands: CardHand[]): number {
   return 0;
 }
